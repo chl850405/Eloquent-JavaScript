@@ -223,7 +223,7 @@ fizzBuzz = () => {
       console.log("fizz-buzz")
       }
     //if num in none of the above print number
-    else if((i != 3 == 0) && (i != 5 == 0)){
+    else{
     console.log(i)
     }
   }
