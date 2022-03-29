@@ -199,11 +199,35 @@ loopingTriangle = () => {
     for( j = 1; j <= rows; j++){
       console.log("#");
     }
-    //creates individual rowsz
+    //creates individual rows
     console.log("/n")
   }
 }
 loopingTriangle()
 
+// Chapter Exercise FIZZ BUZZ
+
+fizzBuzz = () => {
+  const num = 100
+  let i = 1;
+  //loop through 1 -100
+  for(i = 1; i <= num; i++){
+    //if num is multiple of 3
+    if(i % 3 == 0)
+    console.log("fizz")
+    //if num is multiple of 5
+    if(i % 5 == 0)
+    console.log("buzz")
+    //if num is both multiple of 5 & 3
+    if((i % 3 == 0) && (i % 5 == 0)){
+      console.log("fizz-buzz")
+      }
+    //if num in none of the above print number
+    if((i != 3 == 0) && (i != 5 == 0)){
+    console.log(i)
+    }
+  }
+}
+fizzBuzz()
 
 
